@@ -1,4 +1,6 @@
 # ctm_scripts
+Prerequisites are: go git docker minikube
+Details for what I did re these are at the end of thie readme
 
 # Create a new go project
 mkdir ctm3 ; cd ctm3
@@ -22,6 +24,9 @@ go build
 docker build -t helloworld .
 docker images   # Should see an image named helloworld
 docker run helloworld
+
+# Startup minikube
+minikube start
 
 # Create the manifest.yml
 kubectl create -f manifest.yml
