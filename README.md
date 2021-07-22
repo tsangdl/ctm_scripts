@@ -40,7 +40,7 @@ curl http://192.168.49.2:30837
 
 # Run it
 minikube service go-hello-world2
-
+Not sure why yet but there was a THis site can't be reached error on my browser. Most probably a proxy or firewall error.
 I created a separate app that was a web server but had issues with it displaying on the browser so have not included it here.
 
 
