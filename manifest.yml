@@ -33,7 +33,7 @@ spec:
             scheme: HTTP
           initialDelaySeconds: 5
           timeoutSeconds: 1
-apiVersion: apps/v1
+apiVersion: v1
 kind: Service                    # Type of kubernetes resource
 metadata:
   name: go-hello-world-service2   # Name of the resource
