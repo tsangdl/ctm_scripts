@@ -16,6 +16,5 @@ Build an image and test
 go build
 ./helloworld4
 
-add go.sum to git
-git add *
-git commit -m "Add 'Hello world' web server"
+Containerise the app
+Create the Dockerfile
